@@ -3,6 +3,6 @@ fetch('https://test-delta-puce-48.vercel.app/year')
 .then(data => {
     const date = data['date'];
     document.querySelector('#year').innerHTML += `
-    <p>Année : ${date}</p>
+    <p>FAKE_YEAR_FOR_TEST : ${date}</p>
     `;
 });
